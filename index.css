@@ -1,3 +1,59 @@
-:root{
-    --bs-blue: #0d6efd;
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Color theme */
+:root {
+    --primary-color: #aceefa;
+    --text-color: #333;
+    --background-color: #fff;
+}
+
+/* Basic styling for the website */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #1c0579;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.nav {
+    margin-top: 10px;
+    color: #1c0579;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex; /* Set the navigation elements to display in a row */
+    /* justify-content: center; Center the navigation elements horizontally */
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #9fd1f1;
+}
+
+/* Rest of your styles... */
